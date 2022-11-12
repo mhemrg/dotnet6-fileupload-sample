@@ -1,0 +1,13 @@
+{
+  "port": 80,
+  "disks": [
+    {
+      "name": "uploads",
+      "mountTo": "/app/UploadedFiles"
+    },
+    {
+      "name": "keys",
+      "mountTo": "/app/keys"
+    }
+  ]
+}
